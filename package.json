@@ -1,0 +1,8 @@
+{
+  "name": "velora-hotel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"dev":"next dev","build":"prisma generate && next build","start":"next start","lint":"next lint","db:generate":"prisma generate","db:push":"prisma db push"},
+  "dependencies": {"@prisma/client":"^6.16.2","lucide-react":"^0.468.0","next":"^15.5.4","react":"^19.1.1","react-dom":"^19.1.1","resend":"^6.1.0","zod":"^4.1.11"},
+  "devDependencies": {"@tailwindcss/postcss":"^4.1.14","@types/node":"^22.18.6","@types/react":"^19.1.14","@types/react-dom":"^19.1.9","prisma":"^6.16.2","tailwindcss":"^4.1.14","typescript":"^5.9.2"}
+}
